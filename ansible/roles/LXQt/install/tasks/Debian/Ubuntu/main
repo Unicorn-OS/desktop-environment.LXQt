@@ -1,7 +1,11 @@
 ---
+# https://linux.how2shout.com/install-lxqt-desktop-environment-on-ubuntu-22-04-20-04-linux/
 - name: Install 
   ansible.builtin.apt:
     pkg:
-    - foo
-    - foo-tools
+    - lxqt
   become: true
+
+# Do: set display manager
+# https://www.google.com/search?q=ubuntu+change+display+manager+command+line
+# https://www.google.com/search?q=dpkg-reconfigure+noninteractive
