@@ -1,0 +1,7 @@
+---
+- name: dnf group install "LXQt Desktop"
+  ansible.builtin.dnf:
+    name:
+      - '@LXQt Desktop'
+    state: latest
+  become: true

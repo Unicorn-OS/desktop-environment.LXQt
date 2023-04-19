@@ -1,0 +1,7 @@
+---
+- hosts: fedora #, ubuntu, local
+  vars:
+    autologin: true
+
+  roles:
+  - LXQt

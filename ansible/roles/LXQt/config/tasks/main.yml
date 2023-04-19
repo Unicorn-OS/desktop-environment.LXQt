@@ -1,0 +1,5 @@
+---
+- name: Autologin
+  ansible.builtin.include_role:
+    name: LXQt/autologin
+  when: autologin
